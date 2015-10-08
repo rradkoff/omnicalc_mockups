@@ -3,6 +3,10 @@
 <head>
   <title>Omnicalc</title>
 
+  <script src="/assets/application-391bcb7d673d5090586060c4dfc0cb473af7b3d92a9ea06629ced34e9792b405.js"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+  <meta name="csrf-token" content="Z8d/hbmD7om65NOXKIjMSR4btPG2/sYKabJuflRSRvh6GN2Kb1auYPW9SS2JHudtFNWHMk8yWaea71Q0MB+EDQ==" />
+
   <!-- Connect to Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -22,8 +26,87 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="../ruby_logo_2.png" />
+
 </head>
 <body>
-
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><i class="fa fa-calculator"></i>
+        Omnicalc</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav visible-xs visible-sm">
+          <li>
+            <a href="../word_count/new_start.html"><i class="fa fa-book"></i>
+            <span>Word Count</span></a>
+          </li>
+          <li>
+            <a href="../loan_payment/new_start.html"><i class="fa fa-money"></i>
+            <span>Loan Payment</span></a>
+          </li>
+          <li>
+            <a href="../time_between/new_start.html"><i class="fa fa-clock-o"></i>
+            <span>Time Between</span></a>
+          </li>
+          <li>
+            <a href="../descriptive_statistics/new_start.html"><i class="fa fa-bar-chart"></i>
+            <span>Descriptive Statistics</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 hidden-xs hidden-sm">
+        <div class="list-group">
+          <a href="../word_count/new_start.html" class="list-group-item"><i class="fa fa-book"></i>
+          Word Count</a>
+          <a href="../loan_payment/new_start.html" class="list-group-item"><i class="fa fa-money"></i>
+          Loan Payment</a>
+          <a href="../time_between/new_start.html" class="list-group-item"><i class="fa fa-clock-o"></i>
+          Time Between</a>
+          <a href="../descriptive_statistics/new_start.html" class="list-group-item"><i class="fa fa-bar-chart"></i>
+          Descriptive Statistics</a>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Time Between Results</h3>
+  </div>
+  <div class="panel-body">
+    <dl class="dl-horizontal">
+      <dt>Starting Time</dt>
+        <dd></dd>
+      <dt>Ending Time</dt>
+        <dd></dd>
+      <dt>Seconds</dt>
+        <dd></dd>
+      <dt>Minutes</dt>
+        <dd></dd>
+      <dt>Hours</dt>
+        <dd></dd>
+      <dt>Days</dt>
+        <dd></dd>
+      <dt>Weeks</dt>
+        <dd></dd>
+      <dt>Years</dt>
+        <dd></dd>
+    </dl>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
