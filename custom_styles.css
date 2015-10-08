@@ -1,3 +1,9 @@
 body {
 
 }
+
+.dl-horizontal dt{
+  white-space: normal;
+  word-wrap:break-word;
+
+}
